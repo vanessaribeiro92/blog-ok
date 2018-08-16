@@ -1,0 +1,118 @@
+/*____GERAL____*/
+* {
+  box-sizing: border-box; /*Mudando o padding não aumenta o nosso elemento*/
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*____LAYOUT____*/
+.container {
+  width: 960PX;
+  width: 65%;
+}
+
+.col-1-de-3 {
+  display: inline-block;
+  width: 30%;
+}
+
+.col-2-de-3 {
+  display: inline-block;
+  width: 65%;
+}
+
+
+/*NAVEGAÇÃO*/
+.topbar {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 15);
+  z-index: 999;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 400px;
+}
+
+.menu__item {
+  display: inline;
+}
+
+.menu__item a{
+  color: grey;
+  text-transform: uppercase;
+  margin-right: 25px
+}
+
+/*____HEADER____*/
+.header__titulo {
+  text-transform: uppercase;
+  color:#9013FE;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+}
+
+header {
+  padding-top: 80px;
+}
+
+/*_____SECTION____*/
+
+
+
+/*ASIDE*/
+/*DESCRIÇÃO DA AUTORA*/
+.autora {
+  text-align: center;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  vertical-align: top;
+  height: 480px;
+}
+
+.autora__nome,
+.autora__ocupacao {
+  margin: 0;
+}
+
+.autora__nome {
+  margin-top: 10px;
+}
+
+/*____MAIN____*/
+/*ARTIGO*/
+.artigo {
+  color: #4a4a4a;
+  margin-left: 30px;
+}
+
+.artigo__titulo {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.artigo p {
+  font-size: 24px;
+}
+
+/*____FOOTER____*/
+footer {
+  background-color: #9013FE;
+  text-align: center;
+  color: white;
+}
+.rodape p {
+  margin: 0;
+  padding: 10px 0;
+}
