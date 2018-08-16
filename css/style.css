@@ -1,0 +1,112 @@
+/*____GERAL____*/
+* {
+  box-sizing: border-box; /*Mudando o padding não aumenta o nosso elemento*/
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*____TOPBAR____*/
+
+
+a{
+  text-decoration: none;
+  color: #9013FE;;
+}
+
+.topbar {
+  position: fixed;
+  background-color: lightblue;
+  width: 100%;
+  padding: 15px 95px;
+}
+
+.menu {
+  display: inline-block;
+}
+
+
+.menu__item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 20px;
+
+}
+
+/*____HEADER____*/
+.header__titulo {
+  text-transform: uppercase;
+  color:#9013FE;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+}
+
+header {
+  padding-top: 60px;
+}
+
+/*_____SECTION____*/
+
+/*LAYOUT*/
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.col-1-de-3 {
+  display: inline-block;
+  width: 30%;
+}
+
+.col-2-de-3 {
+  display: inline-block;
+  width: 65%;
+}
+
+/*ASIDE*/
+/*DESCRIÇÃO DA AUTORA*/
+.autora {
+  text-align: center;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  vertical-align: top;
+  height: 480px;
+}
+
+.autora__nome,
+.autora__ocupacao {
+  margin: 0;
+}
+
+.autora__nome {
+  margin-top: 10px;
+}
+
+/*____MAIN____*/
+/*ARTIGO*/
+.artigo {
+  color: #4a4a4a;
+  margin-left: 30px;
+}
+
+.artigo__titulo {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.artigo p {
+  font-size: 24px;
+}
+
+/*____FOOTER____*/
+footer {
+  background-color: #9013FE;
+  text-align: center;
+  color: white;
+}
+.rodape p {
+  margin: 0;
+  padding: 10px 0;
+}
